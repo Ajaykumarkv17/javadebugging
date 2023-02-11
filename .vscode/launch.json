@@ -1,0 +1,224 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch levelorder",
+            "request": "launch",
+            "mainClass": "levelorder",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimumnoofjumps",
+            "request": "launch",
+            "mainClass": "minimumnoofjumps",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch perfectno",
+            "request": "launch",
+            "mainClass": "perfectno",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch spiralmatrix",
+            "request": "launch",
+            "mainClass": "spiralmatrix",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch Graphs",
+            "request": "launch",
+            "mainClass": "Graphs",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch countpairs",
+            "request": "launch",
+            "mainClass": "countpairs",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch quicksort",
+            "request": "launch",
+            "mainClass": "quicksort",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch insertionsort",
+            "request": "launch",
+            "mainClass": "insertionsort",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch selectionsort",
+            "request": "launch",
+            "mainClass": "selectionsort",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch skillrack",
+            "request": "launch",
+            "mainClass": "skillrack",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimumcostpath",
+            "request": "launch",
+            "mainClass": "minimumcostpath",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch subarraysequal",
+            "request": "launch",
+            "mainClass": "subarraysequal",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch runlengthencoding",
+            "request": "launch",
+            "mainClass": "runlengthencoding",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch lcsstring",
+            "request": "launch",
+            "mainClass": "lcsstring",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch lcs",
+            "request": "launch",
+            "mainClass": "lcs",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch findmissandrepeat",
+            "request": "launch",
+            "mainClass": "findmissandrepeat",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimizesum",
+            "request": "launch",
+            "mainClass": "minimizesum",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringpattern2",
+            "request": "launch",
+            "mainClass": "stringpattern2",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibbonaci",
+            "request": "launch",
+            "mainClass": "fibbonaci",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch arraysumdivisibility",
+            "request": "launch",
+            "mainClass": "arraysumdivisibility",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch countdistinctwindow",
+            "request": "launch",
+            "mainClass": "countdistinctwindow",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch diagonalpatt",
+            "request": "launch",
+            "mainClass": "diagonalpatt",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch inversioncount",
+            "request": "launch",
+            "mainClass": "inversioncount",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch name",
+            "request": "launch",
+            "mainClass": "name",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch oddeven",
+            "request": "launch",
+            "mainClass": "oddeven",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch sorting",
+            "request": "launch",
+            "mainClass": "sorting",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch subset",
+            "request": "launch",
+            "mainClass": "subset",
+            "projectName": "java debugging_60de6929"
+        }
+    ]
+}
