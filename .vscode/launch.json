@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch notowords",
+            "request": "launch",
+            "mainClass": "notowords",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "Launch levelorder",
             "request": "launch",
             "mainClass": "levelorder",
