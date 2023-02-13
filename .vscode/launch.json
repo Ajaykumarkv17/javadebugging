@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch rowwithmax1",
+            "request": "launch",
+            "mainClass": "rowwithmax1",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch coinchange",
+            "request": "launch",
+            "mainClass": "coinchange",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "Launch notowords",
             "request": "launch",
             "mainClass": "notowords",
