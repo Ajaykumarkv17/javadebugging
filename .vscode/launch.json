@@ -4,6 +4,29 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Launch fruitsintobaskets",
+            "request": "launch",
+            "mainClass": "fruitsintobaskets",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestsubstring",
+            "request": "launch",
+            "mainClass": "longestsubstring",
+            "projectName": "java debugging_60de6929"
+        },
         {
             "type": "java",
             "name": "Launch rowwithmax1",
