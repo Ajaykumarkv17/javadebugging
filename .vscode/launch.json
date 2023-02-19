@@ -4,8 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "Launch isomorphic",
+            "request": "launch",
+            "mainClass": "isomorphic",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch validateip",
+            "request": "launch",
+            "mainClass": "validateip",
+            "projectName": "java debugging_60de6929"
+        },
         {
             "type": "java",
             "name": "Attach",
