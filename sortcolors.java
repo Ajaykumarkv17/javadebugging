@@ -6,7 +6,7 @@ public class sortcolors {
         for(int i=0;i<color.length;i++){
             System.out.print(color[i]+" ");
         }
-
+    
     }
     static void DutchNationalFlag(int color[],int n){
         //Declare 4 variables 

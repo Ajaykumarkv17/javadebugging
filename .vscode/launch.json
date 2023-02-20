@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MaxConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "MaxConsecutiveOnes",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "Launch isomorphic",
             "request": "launch",
             "mainClass": "isomorphic",
