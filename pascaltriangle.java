@@ -12,7 +12,7 @@ public class pascaltriangle {
         ArrayList<Long> v = new ArrayList<>();
         ArrayList<Long> tans = nthRowOfPascalTriangle(n-1);
         v.add(1l);
-        long c = 1;
+      
         for (int i = 1; i < n-1; i++) {
             v.add((tans.get(i)+tans.get(i-1))%MOD);
             //c = ((c % MOD * (n - i)) % MOD * mod.get(i)) % MOD;

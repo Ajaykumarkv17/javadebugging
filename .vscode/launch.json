@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch infixtopostfix",
+            "request": "launch",
+            "mainClass": "infixtopostfix",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch bitflip",
+            "request": "launch",
+            "mainClass": "bitflip",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch amcat1",
+            "request": "launch",
+            "mainClass": "amcat1",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "Launch hexa",
+            "request": "launch",
+            "mainClass": "hexa",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "Launch MaxConsecutiveOnes",
             "request": "launch",
             "mainClass": "MaxConsecutiveOnes",

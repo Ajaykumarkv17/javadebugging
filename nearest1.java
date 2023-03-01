@@ -8,7 +8,7 @@ public class nearest1 {
 	    int vis[][] = new int[n][m]; 
 	    int dist[][] = new int[n][m]; 
 	    // <coordinates, steps>
-	    Queue<Node> q = new LinkedList<Node>();
+	    Queue <Node> q = new LinkedList<Node>();
 	    // traverse the matrix
 	    for(int i = 0;i<n;i++) {
 	        for(int j = 0;j<m;j++) {

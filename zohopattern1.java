@@ -20,15 +20,15 @@ public class zohopattern1 {
         for(int i=0;i<=n;i++){
             if(i==start)
                 System.out.print(ch);
-            
+           
             if(i==end)
-                System.out.print(ch);
+                System.out.print((ch=='G')?" ":ch);
             
             else
                 System.out.print(" ");
             
             if(i==n)
-            System.out.println("");}
+            System.out.println(" ");}
             
             start+=2;
             end-=2;

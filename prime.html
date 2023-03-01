@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime number</title>
+</head>
+<body>
+    <button onclick="myprime(3,100)">Click me</button>
+    <script>
+        
+        
+        
+
+          
+
+    myprime=(lower,upper)=>{
+            for(var i=lower; i<upper; i++) {
+           var count=0;
+            var count=0;
+            for(var j=2; j<=i; j++) {
+                if(i%j==0){
+                    count=count+1;
+                }}
+            
+            if(count==1){
+                document.write("<h3>"+i+" is prime"+"</h3>"+"<br>");
+            }
+            else{
+                document.write("<h3>"+i+"is not a prime"+"</h3>"+"<br>");
+            }
+
+            
+       }};
+        
+      
+
+    </script>
+
+</body>
+</html>
