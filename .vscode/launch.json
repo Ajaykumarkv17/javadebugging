@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sstockbuyandsell",
+            "request": "launch",
+            "mainClass": "sstockbuyandsell",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "Launch infixtopostfix",
             "request": "launch",
             "mainClass": "infixtopostfix",
