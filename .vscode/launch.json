@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countandsay",
+            "request": "launch",
+            "mainClass": "countandsay",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "sstockbuyandsell",
             "request": "launch",
             "mainClass": "sstockbuyandsell",
