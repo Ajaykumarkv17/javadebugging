@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lengthoflongestconsecutivesubsequence",
+            "request": "launch",
+            "mainClass": "lengthoflongestconsecutivesubsequence",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "countandsay",
             "request": "launch",
             "mainClass": "countandsay",
