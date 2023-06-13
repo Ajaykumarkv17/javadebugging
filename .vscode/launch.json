@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kthlargest",
+            "request": "launch",
+            "mainClass": "kthlargest",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "hotelfoor",
+            "request": "launch",
+            "mainClass": "hotelfoor",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "rodcutting",
+            "request": "launch",
+            "mainClass": "rodcutting",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "potd25",
+            "request": "launch",
+            "mainClass": "potd25",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "maximizerect",
+            "request": "launch",
+            "mainClass": "maximizerect",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "nextsmallestpalindrome",
+            "request": "launch",
+            "mainClass": "nextsmallestpalindrome",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "recursions",
+            "request": "launch",
+            "mainClass": "recursions",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "specialarray",
+            "request": "launch",
+            "mainClass": "specialarray",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "lis",
+            "request": "launch",
+            "mainClass": "lis",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "secondsmallest",
+            "request": "launch",
+            "mainClass": "secondsmallest",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "primsalgo",
+            "request": "launch",
+            "mainClass": "primsalgo",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "lengthoflongestconsecutivesubsequence",
             "request": "launch",
             "mainClass": "lengthoflongestconsecutivesubsequence",

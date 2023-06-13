@@ -1,9 +1,10 @@
- public static void main(String[] args){
+public class square{
+    public static void main(String[] args){
         int n=5;
         calcsquare(n);
     }
     public static int calcsquare(int n){
-        if(n==1){
+        if(n==0){
             return  1;
 
         }
@@ -12,3 +13,4 @@
         n--;
         return calcsquare(n);
     }
+}

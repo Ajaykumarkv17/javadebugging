@@ -32,7 +32,7 @@ public class notowords {
          tens.put(40,"Fourty");
          tens.put(50,"Fifty");
          tens.put(60,"Sixty");
-         tens.put(70,"Sevenety");
+         tens.put(70,"Seventy");
          tens.put(80,"Eighty");
          tens.put(90,"Ninty");
 
