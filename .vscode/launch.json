@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ansihcars",
+            "request": "launch",
+            "mainClass": "ansihcars",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "kthlargest",
             "request": "launch",
             "mainClass": "kthlargest",
