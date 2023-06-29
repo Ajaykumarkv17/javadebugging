@@ -1,6 +1,6 @@
 public class excel{
     public static void main(String[] args) {
-        String s="RWXP";
+        String s="AA";
         int ans=calc(s);
         System.out.println(ans);
 

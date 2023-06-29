@@ -15,6 +15,9 @@ public class amcat1 {
             for (int j = 0; j < laptop.length; j++) {
                 if(arr[i]==laptop[j]){
                     ans=ans+1;
+                    if(ans==1){
+                        continue;
+                    }
                     
                 }
                 

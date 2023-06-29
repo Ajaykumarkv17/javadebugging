@@ -18,7 +18,7 @@ public class atoi {
 	            num = num*10+(temp-48);    
 	            
 	        }
-	    return mlt*num;      
+	    return num;      
     }
     public static void main(String[] args){
         String s="123";

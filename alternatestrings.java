@@ -17,21 +17,18 @@ public class alternatestrings{
              blarge=m-n;
         }
         StringBuffer sb=new StringBuffer();
-        for(int i=0;i<n&&i<m;i++){
+      for(int i=0;i<n||i<m;i++){
+        if(i<n&&i<m){
             sb.append(word1.charAt(i));
-            sb.append(word2.charAt(i));
+            sb.append(word2.charAt(i)); 
+            
         }
-        
-        if(blarge>0){
-            for(int i=sb.length();i<m+n;i++){
+        else{
+            if(i<m){
                 sb.append(word2.charAt(i));
             }
         }
-        if(alarge>0){
-           for(int i=sb.length();i<m+n;i++){
-                sb.append(word1.charAt(i));
-            } 
-        }
+      }
         return sb.toString();
     }
 }

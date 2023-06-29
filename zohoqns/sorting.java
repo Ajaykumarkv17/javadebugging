@@ -19,7 +19,7 @@ public class sorting {
         return res;
     }
     public static void main(String[] args) {
-        Integer arr[]={1,8,6,3,4};
+        Integer arr[]={1,8,6,3,4,9};
         Arrays.sort(arr, Collections.reverseOrder());
         int n=arr.length;
         ArrayList<Integer>a=new ArrayList<Integer>(customsort(arr, n));

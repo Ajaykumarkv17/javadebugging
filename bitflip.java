@@ -1,4 +1,4 @@
-import mcqs.hack;
+
 
 public class bitflip {
     public static void main(String[] args) {
