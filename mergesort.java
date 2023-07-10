@@ -3,11 +3,11 @@ public class mergesort {
     public static void main(String[] args) {
         int arr[]={4,33,5,11,2,37,10,55,7,2,3};
         int n=arr.length;
-        int l=0;
+        int l=0
         int h=n-1;
         merge(arr,n,l,h);
         for (int index = 0; index < arr.length; index++) {
-          
+            
             System.out.print(arr[index]+" ");
         }
 

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "generpar",
+            "request": "launch",
+            "mainClass": "generpar",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "permut",
+            "request": "launch",
+            "mainClass": "permut",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "ansihcars",
             "request": "launch",
             "mainClass": "ansihcars",
