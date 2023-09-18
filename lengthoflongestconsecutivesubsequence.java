@@ -1,7 +1,7 @@
 import java.util.*;;
 public class lengthoflongestconsecutivesubsequence {
     public static void main(String[] args) {
-        String s="abcabccabde";
+        String s="abcabccabefgbbgfg";
         int n=s.length();
         int ans=find(s,n);
         System.out.println(ans);

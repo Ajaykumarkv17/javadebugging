@@ -15,7 +15,7 @@ public class numberofsubstringscontaining {
     
 }
 public static void main(String[] args) {
-    String s="abcaba";
+    String s="abcaba ";
     int n=countSubstring(s);
     System.out.print(n);
 }

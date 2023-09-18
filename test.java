@@ -6,8 +6,8 @@ public class test implements Runnable {
     {
         Thread thread = new Thread(new test());
         thread.start();
-        System.out.printf("%d", 1);
-        thread.join();
+       // System.out.printf("%d", 1);
+       // thread.join();
         System.out.printf("%d", 2);
     }
 }

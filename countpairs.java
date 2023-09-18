@@ -20,7 +20,7 @@ public class countpairs{
         return count;
     }
     public static void main(String[] args) {
-        int arr[]={7,5,6,2,1,8,7,8};
+        int arr[]={7,5,6,2,1,7,8};
         int n=arr.length;
         int x=10;
         System.out.println(countpair(arr,n,x));

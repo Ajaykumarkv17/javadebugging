@@ -1,7 +1,7 @@
 public class subs {
     public static void main(String[] args) {
         String s="abc";
-        String t="ahbgdc";
+        String t="ahgdc";
         System.out.println(subse(s,t));
     }
    static  public boolean subse(String s, String t) {

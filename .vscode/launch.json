@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "commoneleinmatrix",
+            "request": "launch",
+            "mainClass": "commoneleinmatrix",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "chocdis",
+            "request": "launch",
+            "mainClass": "chocdis",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "votes",
+            "request": "launch",
+            "mainClass": "votes",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "longestpalindromicsubsquence",
+            "request": "launch",
+            "mainClass": "longestpalindromicsubsquence",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "kthlarg",
+            "request": "launch",
+            "mainClass": "kthlarg",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "generpar",
             "request": "launch",
             "mainClass": "generpar",

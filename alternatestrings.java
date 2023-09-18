@@ -27,6 +27,9 @@ public class alternatestrings{
             if(i<m){
                 sb.append(word2.charAt(i));
             }
+            else{
+                 sb.append(word1.charAt(i));
+            }
         }
       }
         return sb.toString();

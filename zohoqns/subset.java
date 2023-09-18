@@ -11,7 +11,7 @@ public class subset {
 	public static void main(String[] args) throws IOException
 	{
             long a1[]={3231 ,53858, 19, 5, 59, 498, 520, 7, 9, 10, 11, 12};
-            long a2[]={ 6,7 ,498 ,59, 10, 520 ,12};
+            long a2[]={7 ,498 ,59, 10, 520 ,12};
             int n=a1.length;
             int m=a2.length;
             

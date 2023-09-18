@@ -3,14 +3,16 @@ public class square{
         int n=5;
         calcsquare(n);
     }
-    public static int calcsquare(int n){
-        if(n==0){
-            return  1;
+    public static void calcsquare(int n){
+        if(n==0)
+            return  ;
 
-        }
+        
         int square=n*n;
         System.out.println(square);
         n--;
-        return calcsquare(n);
+        
+        calcsquare(n);
+        System.out.println(square);
     }
 }

@@ -1,6 +1,51 @@
 public class uniquerows {
+    static int low(int mat[],int n,int sum){
+        //{0,0,1,1,1}
+        int low=0;
+        int high=n-1;
+        int ans=n;
+        while(low<=high){
+            int mid=(low+high)/2;
+            if(mat[mid]>=sum){
+                ans=mid;
+                high=mid-1;
+            }
+            else{
+                low=mid+1;
+            }
+        }
+
+
+        return ans;
+    }
+
+
+    static int find(int mat[][],int n,int m){
+        int ind=-1;
+        int max_cnt=0;
+        for(int i=0;i<n-1;i++){
+            int c_cnt=m-low(mat[i],m,1);
+            if(c_cnt>max_cnt){
+                max_cnt=c_cnt;
+                ind=i;
+            }
+        }
+
+
+
+
+        return ind;
+    }
     public static void main(String[] args) {
-        
+        //maxnoofones
+        int mat[][]={{0,0,1,1,1},{0,0,0,0,0},{0,0,0,1,1},{0,0,1,1,1},{0,0,1,1,1}};
+        int n=5;
+        int m=5;
+        int ans=find(mat,n,m);
+        System.out.println(ans);
+
+
+
     }
 }
 /*class GfG

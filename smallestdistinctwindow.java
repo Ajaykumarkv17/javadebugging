@@ -8,6 +8,7 @@ public class smallestdistinctwindow {
         for(int i=0;i<str.length();i++){
             set.add(str.charAt(i));
         }
+        System.out.println(set.size());
         int i=0;
         int j=0;
         int ans=Integer.MAX_VALUE;
@@ -19,6 +20,7 @@ public class smallestdistinctwindow {
             
            while(map.size()==set.size()){
                 ans = Math.min(ans,i-j);
+                System.out.println(ans);
                 char ch1 = str.charAt(j);
                 map.put(ch1, map.getOrDefault(ch1, 0)-1);
                 if(map.get(ch1)==0) map.remove(ch1);
@@ -28,7 +30,7 @@ public class smallestdistinctwindow {
         return ans;
     }
     public static void main(String[] args){
-        String a="aaab";
+        String a="geekgeeksfor";
         int ans=findSubString(a);
         System.out.println(ans);
     }
