@@ -15,6 +15,7 @@ public class bipartitegraph {
             else if(color[it] == col) {
                 return false; 
             }
+            
         }
         
         return true; 
