@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "courseschedule",
+            "request": "launch",
+            "mainClass": "courseschedule",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "buyandsell2",
+            "request": "launch",
+            "mainClass": "buyandsell2",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
+            "name": "maximmat",
+            "request": "launch",
+            "mainClass": "maximmat",
+            "projectName": "java debugging_60de6929"
+        },
+        {
+            "type": "java",
             "name": "bstanc",
             "request": "launch",
             "mainClass": "bstanc",

@@ -8,7 +8,7 @@ public class courseschedule {
         for (int i = 0; i < N; i++) {
             prerequisites.add(i, new ArrayList<>());
         }
-
+        //{1,0},{2,1},{3,2}
 
         prerequisites.get(0).add(0);
         prerequisites.get(0).add(1);

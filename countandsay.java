@@ -1,23 +1,41 @@
 public class countandsay {
     public static void main(String[] args) {
-        int n=5;
-        String s=convert(n);
-        System.out.println(s);
+        int n = 10;  
+        convert(n);
+        //System.out.println();
     }
-    static String convert(int n) {
-        if(n == 1) return "1";
-        String s = convert(n-1);
-        StringBuilder res = new StringBuilder();
-        int count = 0;
-        for(int i = 0; i < s.length(); i++){
-            count++;
-            if(i == s.length()-1 || s.charAt(i) != s.charAt(i+1)){
-                res.append(count).append(s.charAt(i));
-                count = 0;
+
+    static void convert(int n) {
+        
+           System.out.println(1);
+           String s="1";
+           int i=1;
+           while(i<n){
+            String nw="";
+            int count=1;
+            char ch=s.charAt(0);
+            for(int j=1; j<s.length(); j++){
+                if(s.charAt(j)!=s.charAt(j-1)){
+                    System.out.print(count+" "+ch+" ");
+                    nw+=count+""+ch;
+                    ch=s.charAt(j);
+                    count=1;
+
+                }
+                else{
+                    count++;
+                }
             }
-        }
-        return res.toString();
-           
+            System.out.println(count+" "+ch);
+            nw+=count+""+ch;
+            s=nw;
+            i++;
+
+
+
+
+
+           }
         
     }
 }

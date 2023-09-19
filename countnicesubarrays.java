@@ -9,7 +9,7 @@ public class countnicesubarrays {
                 nums[i] =1;
             }
         }
-        HashMap<Integer,Integer> map = new HashMap();
+        HashMap<Integer,Integer> map = new HashMap<>();
         map.put(0,1);
         int sum=0,count=0;
         for(int i=0;i<nums.length;i++){
@@ -23,9 +23,9 @@ public class countnicesubarrays {
     
     }
     public static void main(String[] args) {
-        int nums[]={1,1,2,1,1};
+        int nums[]={3,5,6,2,4};
         int n=nums.length;
-        int k=3;
+        int k=2;
         int ans=countSubarray(n, nums, k);
         System.out.print(ans);
     }
